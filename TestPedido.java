@@ -1,6 +1,7 @@
 import java.util.Scanner;
 /**
  *  Clase para probar el resto de clases
+ *  @author Gaizka Lumbreras Huarte
  *  
  */
 public class TestPedido

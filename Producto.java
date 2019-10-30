@@ -1,6 +1,7 @@
 /**
  *  
  * Modela un producto. Todo producto tiene un nombre y un  precio unidad 
+ * @author Gaizka Lumbreras Huarte
  */
 public class Producto
 {

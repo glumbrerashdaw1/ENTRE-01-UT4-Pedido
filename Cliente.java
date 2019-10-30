@@ -1,6 +1,7 @@
 
 /**
  *  Representa a un cliente que hace un pedido 
+ *  @author Gaizka Lumbreras Huarte
  */
 public class Cliente
 {
