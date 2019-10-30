@@ -1,5 +1,4 @@
 
-
 /**
  *  Representa a un cliente que hace un pedido 
  */
@@ -52,12 +51,15 @@ public class Cliente
      * representación textual del cliente
      */
     public String toString() {
-         
-          
+        String cadenaFormateada = String.format("%10s","NOMBRE","%-10s", nombre,
+                "%10s","DIRECCION","%-10s", direccion,
+                "%10s","CIUDAD","%-10s", ciudad,
+                "%10s","PROVINCIA","%-10s", provincia);
+        return cadenaFormateada;       
     }
-    
+
     /**
-     * 
+     *  
      */
     public void print() {
         System.out.println(this.toString());

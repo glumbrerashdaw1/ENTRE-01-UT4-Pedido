@@ -28,12 +28,13 @@ public class Producto
     public double getPrecio() {
         return precio;
     }
-    
+
     /**
      * obtiene un nuevo producto copia idéntica del actual
      */
-    public         obtenerCopia() {
-         
+    public Producto obtenerCopia() {
+        Producto copiaProducto = new Producto(nombre, precio);
+        return copiaProducto;
     }
 
     /**
@@ -41,7 +42,8 @@ public class Producto
      * (ver enunciado)
      */
     public String toString() {
-        
+        String cadenaFormateada = String.format("%30s | %8.2f € unidad",nombre, precio);
+        return cadenaFormateada; 
     }
 
 }
